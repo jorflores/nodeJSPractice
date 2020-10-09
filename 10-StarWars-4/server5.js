@@ -47,6 +47,7 @@ app.get("/api/characters", function(req, res) {
 app.get("/api/characters/:character", function(req, res) {
   var chosen = req.params.character;
 
+  //console.log(req.params)
   console.log(chosen);
 
   for (var i = 0; i < characters.length; i++) {

@@ -1,17 +1,13 @@
 {
-  "name": "starwars-express",
+  "name": "01-FirstServer",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.16.3",
-    "nodemon": "^2.0.4"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server2.js"
+    "start": "node server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC"
 }
